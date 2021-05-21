@@ -29,6 +29,7 @@ canopy_median = 15.539093 # meters
 df['h_canopy'] = np.where((df.h_canopy > canopy_limit),canopy_median,df.h_canopy)
 df = df.dropna()
 #boxplot = df.boxplot(column=['h_canopy'])
+#print(df.shape)
 
 # Plot 3-D plot to represent the trees
 x = df.longitude

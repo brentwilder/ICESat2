@@ -1,7 +1,6 @@
 # ICESat-2 Canopy Height
 
 ## Objectives
-
 - Visualize canopy height across a transect in Madagascar
 - Plot data both in 2D and 3D
 
@@ -14,6 +13,7 @@
 - Data was compiled from 9 different passovers: 2018-11-29, 2019-02-28, 2019-05-30, 2019-08-26, 2019-11-27, 2020-05-27, 2020-08-26, 2020-11-24, and 2021-02-23
 - Much of the data recorded outlier canopy height greater than 35-meters. For this simple exercise the outlier data were converted to median canopy height (15.5-meters).
 - Data included NaN or None data were dropped from the visualization
+- Final tally of ICESat-2 points mapped after cleaning = 8,520 measurements
 
 ## Results
 - 2D representation of latitude and canopy height
