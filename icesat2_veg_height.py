@@ -2,7 +2,7 @@
 # B.A. Wilder
 # 05/21/21
 
-# Import librariess
+# Import libraries
 import os
 import glob
 import pandas as pd
