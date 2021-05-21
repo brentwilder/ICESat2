@@ -10,6 +10,7 @@ import numpy as np
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
+plt.rcParams.update({'font.size': 12})
 
 # Concat ICESat csv files from data folder into one dataframe
 path = r'./data'                     
@@ -64,7 +65,7 @@ z = gaussian_kde(xy)(xy)
 idx = z.argsort()
 x, y, z = x[idx], y[idx], z[idx]
 
-fig, ax = plt.subplots(figsize = (10, 5))
+fig, ax = plt.subplots(figsize = (10, 10))
 density = ax.scatter(x, y, c=z, s=50)
 fig.colorbar(density, label='Density of points')
 ax.set_xlabel('latitude')
