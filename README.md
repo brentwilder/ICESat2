@@ -16,8 +16,8 @@
 - Data included NaN or None data were dropped from the visualization
 
 ## Results
-- 2D representation of latitude and canopy height (meters)
+- 2D representation of latitude and canopy height
 ![Canopy2D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_2D.png)
 
-- 3D representation of canopy height
+- 3D representation of latitude, longitude, canopy height
 ![Canopy3D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_3D.png)
