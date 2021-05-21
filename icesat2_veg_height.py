@@ -64,7 +64,7 @@ z = gaussian_kde(xy)(xy)
 idx = z.argsort()
 x, y, z = x[idx], y[idx], z[idx]
 
-fig, ax = plt.subplots(figsize = (15, 5))
+fig, ax = plt.subplots(figsize = (10, 5))
 density = ax.scatter(x, y, c=z, s=50)
 fig.colorbar(density, label='Density of points')
 ax.set_xlabel('latitude')
