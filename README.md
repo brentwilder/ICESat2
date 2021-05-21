@@ -6,7 +6,7 @@
 - Plot data both in 2D and 3D
 
 ## Study Area
-- https://www.worldwildlife.org/ecoregions/at0117
+- [Eastern Madagascar](https://www.worldwildlife.org/ecoregions/at0117)
 ![Madagascar](https://github.com/bwilder95/ICESat2/blob/main/plots/Madagascar.png)
 
 ## Data
