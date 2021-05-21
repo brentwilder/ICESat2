@@ -52,10 +52,8 @@ ax.set_zlim(0,40)
 ax.view_init(23,-33)
 
 ###############################################################################
-###############################################################################
-###############################################################################
 
-# Plot 2-D profile with respect to latitude with point density for 
+# Plot 2-D profile with respect to latitude with point density
 # Calculate the point density
 x = df['latitude'].to_numpy()
 y = df['h_canopy'].to_numpy()
