@@ -7,8 +7,7 @@
 
 ## Study Area
 - https://www.worldwildlife.org/ecoregions/at0117
-[[https://github.com/bwilder95/ICESat2/blob/main/plots/Madagascar.png]]
-
+![Madagascar](https://github.com/bwilder95/ICESat2/blob/main/plots/Madagascar.png)
 
 ## Data
 - Data was collected from https://openaltimetry.org/data/icesat2/
@@ -18,7 +17,7 @@
 
 ## Results
 - 2D representation of latitude (north/south) and canopy height (meters)
-[[https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_2D.png]]
+![Canopy2D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_2D.png)
 
 - 3D representation of canopy height
-[[https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_3D.png]]
+![Canopy3D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_3D.png)
