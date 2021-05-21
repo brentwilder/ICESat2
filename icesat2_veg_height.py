@@ -47,7 +47,6 @@ sctt = ax.scatter3D(x, y, dz,
                     c = (dz),
                     cmap = my_cmap,
                     marker ='^')
-plt.title("Madagascar Transect Canopy Height")
 ax.set_xlabel('longitude', fontweight ='bold')
 ax.set_ylabel('latitude', fontweight ='bold')
 ax.set_zlabel('canopy height (m)', fontweight ='bold')
