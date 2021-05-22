@@ -27,7 +27,8 @@
 
 ## Objectives
 - Compare elevations across a transect in Madagascar to 90-m DEM
-- Plot results and list statistics 
+- Plot results and list statistics using Google Earth Engine
+![GEE](https://github.com/bwilder95/ICESat2/blob/main/plots/GEE.png)
 
 ## Data
 - Same as above, but this time only used measurements from 2020-05-27
