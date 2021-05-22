@@ -21,3 +21,22 @@
 
 - 3D representation of latitude, longitude, canopy height
 ![Canopy3D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_3D.png)
+
+
+# ICESat-2 DEM Comparison
+
+## Objectives
+- Compare elevations across a transect in Madagascar to 90-m DEM
+- Plot results and list statistics 
+
+## Data
+- Same as above, but this time only used measurements from 2020-05-27
+- Total of 3,737 ICESat points
+- Used 90-meter DEM from SRTM V4, Google Earth Engine
+
+## Results
+- Across the transect we can see what seems to be a consistent positive bias from SRTM
+![ELEV](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_Lat.png)
+
+- Performance metrics were good with R^2=0.99 and RMSE=0.47-meters. Positive bias was quite high.
+![Performance](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_perform.png)
