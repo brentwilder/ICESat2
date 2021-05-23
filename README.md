@@ -26,18 +26,18 @@
 # ICESat-2 DEM Comparison
 
 ## Objectives
-- Compare elevations across a transect in Madagascar to 90-m DEM
+- Compare elevations across a transect in Madagascar to 30-m DEM
 - Plot results and list statistics using Google Earth Engine
 ![GEE](https://github.com/bwilder95/ICESat2/blob/main/plots/GEE.png)
 
 ## Data
 - Same as above, but this time only used measurements from 2020-05-27
 - Total of 3,737 ICESat points
-- Used 90-meter DEM from SRTM V4, Google Earth Engine
+- Used 30-meter DEM from Google Earth Engine's NASA SRTM Digital Elevation 30m image
 
 ## Results
 - Across the transect we can see what seems to be a consistent positive bias from SRTM
 ![ELEV](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_Lat.png)
 
-- Performance metrics were good with R^2=0.99 and RMSE=0.47-meters. Positive bias was quite high.
+- Performance metrics were good with R^2=0.99 and RMSE=0.19-m. Positive bias was quite high, which matches what others have found for forested areas.
 ![Performance](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_perform.png)

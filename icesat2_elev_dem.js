@@ -5,7 +5,7 @@
 // load DEM and display ICESat2 transect
 var pts = ee.FeatureCollection('users/bwilder95/elev_2020-05-27')
 Map.addLayer(pts);
-var DEM = ee.Image('CGIAR/SRTM90_V4')
+var DEM = ee.Image('USGS/SRTMGL1_003')
                   .select('elevation');
 // Calculate slope from the DEM.
 var slope = ee.Terrain.slope(DEM);
