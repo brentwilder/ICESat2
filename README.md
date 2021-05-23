@@ -39,5 +39,5 @@
 - Across the transect we can see what seems to be a consistent positive bias from SRTM
 ![ELEV](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_Lat.png)
 
-- Performance metrics were good with R^2=0.99 and RMSE=0.19-m. Positive bias was quite high, which matches what others have found for forested areas.
+- Performance metrics were good with R^2=0.99 and RMSE=0.19-m. Positive bias was quite high, which matches what others have found for [forested areas](https://www.usgs.gov/core-science-systems/eros/topochange/science/accuracy-assessment-elevation-data?qt-science_center_objects=0#qt-science_center_objects).
 ![Performance](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_perform.png)
