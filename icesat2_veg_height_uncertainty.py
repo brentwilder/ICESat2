@@ -40,4 +40,3 @@ cat1 = df[df['beam']=='gt2l'] # with
 cat2 = df[df['beam']!='gt2l'] # without
 t_test = ttest_ind(cat1['canopy uncertainty (m)'], cat2['canopy uncertainty (m)'])
 print(t_test)
-

@@ -53,8 +53,8 @@
 ## Results
 - Overall statistics for canopy uncertainty 
     * count = 8,560
-    * median = 3.29-meters
-    * mean = 6.01-meters
+    * median = 3.3-meters
+    * mean = 6.0-meters
     * standard deviation = 8.25-meters
 
 - Uncertainty varied by image collection date, with median uncertainty ranging from 0.5 to 5.7-meters
@@ -63,4 +63,6 @@
 - Uncertainty also varied by beam, with **gt2l** having statistically higher uncertainty than other beams (p < 0.05)
     * pvalue = 2.1732473356675775e-15
     * tstatistic = 7.9458647215372435
+    * **median for gt2l = 5.1-meters**
+    * median for all other beams = 3.1-meters
 ![beam](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_uncert_beam.png)
