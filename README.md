@@ -6,7 +6,7 @@
 
 ## Study Area
 - [Eastern Madagascar](https://www.worldwildlife.org/ecoregions/at0117)
-![leafmap](https://github.com/bwilder95/ICESat2/blob/main/plots/Madagascar.html)
+![leafmap](https://github.com/bwilder95/ICESat2/blob/main/plots/leafmap.png)
 
 ## Data
 - Data was collected from https://openaltimetry.org/data/icesat2/
