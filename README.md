@@ -1,4 +1,4 @@
-# ICESat-2 Canopy Height
+# ICESat-2 Canopy Height (05/21/21)
 
 ## Objectives
 - Visualize canopy height across a transect in Madagascar
@@ -23,7 +23,7 @@
 ![Canopy3D](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_3D.png)
 
 
-# ICESat-2 DEM Comparison
+# ICESat-2 DEM Comparison (05/21/21)
 
 ## Objectives
 - Compare elevations across a transect in Madagascar to 30-m DEM
@@ -41,3 +41,26 @@
 
 - Performance metrics were good with R^2=0.99 and RMSE=0.19-m. Positive bias was quite high, which matches what others have found for [forested areas](https://www.usgs.gov/core-science-systems/eros/topochange/science/accuracy-assessment-elevation-data?qt-science_center_objects=0#qt-science_center_objects).
 ![Performance](https://github.com/bwilder95/ICESat2/blob/main/plots/ICESat_DEM_perform.png)
+
+# ICESat-2 Canopy Height Uncertainty (05/27/21)
+
+## Objectives
+- Calculate canopy uncertainty statistics for different images (and different [beams](https://icesat-2.gsfc.nasa.gov/science/specs))
+
+## Data
+- Same as above (for all dates)
+
+## Results
+- Overall statistics for canopy uncertainty 
+    * count = 8,560
+    * median = 3.29-meters
+    * mean = 6.01-meters
+    * standard deviation = 8.25-meters
+
+- Uncertainty varied by image collection date, with median uncertainty ranging from 0.5 to 5.7-meters
+![day](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_uncert_day.png)
+
+- Uncertainty also varied by beam, with **gt2l** having statistically higher uncertainty than other beams (p < 0.05)
+    * pvalue = 2.1732473356675775e-15
+    * tstatistic = 7.9458647215372435
+![beam](https://github.com/bwilder95/ICESat2/blob/main/plots/Canopy_uncert_beam.png)
